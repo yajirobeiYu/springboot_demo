@@ -17,7 +17,7 @@ public class HelloController {
     @GetMapping("/hello")
     public ResultBean hello() {
         Map<String,Object> m = new HashMap<>();
-        m.put("name","于海波");
+        m.put("name","张三丰");
         m.put("age",37);
         m.put("address","北京市通州区");
         ResultBean success = ResultBean.success(m);
