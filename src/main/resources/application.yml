@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: springboot_demo
+  mvc:
+    servlet:
+      path: /mdms
+  profiles:
+    active: dev
